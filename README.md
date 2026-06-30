@@ -81,7 +81,6 @@ Le projet PARHAF s'articule autour de 7 outils accessibles via une interface uni
 ## Architecture
 
 '''text
-
 Code/
 ├── corpus_PARHAF_outil_1.json 
 ├── corpus_PARHAF_outil_3.json
