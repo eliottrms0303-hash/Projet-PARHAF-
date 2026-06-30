@@ -1,4 +1,3 @@
-```markdown
 # Projet PARHAF
 
 Le corpus PARHAF est un jeu de données de textes médicaux en français, conçu spécifiquement pour la recherche en traitement automatique des langues (TAL/NLP). Il contient plusieurs milliers de comptes rendus cliniques décrivant des patients, couvrant un large éventail de spécialités médicales.
@@ -7,7 +6,7 @@ Sa particularité essentielle est qu’il ne contient aucune donnée réelle de 
 
 Contrairement aux bases issues du système de santé réel, qui sont fortement contraintes et rarement accessibles, PARHAF est librement utilisable à des fins pédagogiques et de recherche, ce qui en fait un excellent terrain d’expérimentation.
 
-## Liste des outils ##
+## Liste des outils 
 
 ### Outil 1 : Chatbot basé sur un dossier patient
 **Étudiant.e.s :** Eliott Ramos-Gauthier, Alma Lemansour, Lamia Bouhous (Polytech Sorbonne, MAIN)  
@@ -79,7 +78,6 @@ Le projet PARHAF s'articule autour de 7 outils accessibles via une interface uni
 
 ## Architecture
 
-```text
 Code/
 ├── corpus_PARHAF_outil_1.json 
 ├── corpus_PARHAF_outil_3.json
