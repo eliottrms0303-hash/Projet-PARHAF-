@@ -1,6 +1,4 @@
-===========================
 ====== Projet PARHAF ====== 
-===========================
 
 Le corpus PARHAF est un jeu de données de textes médicaux en français, conçu spécifiquement pour la recherche en traitement automatique des langues (TAL/NLP). Il
 contient plusieurs milliers de comptes rendus cliniques décrivant des patients, couvrant un large éventail de spécialités médicales.
@@ -10,9 +8,9 @@ Sa particularité essentielle est qu’il ne contient aucune donnée réelle de 
 Contrairement aux bases issues du système de santé réel, qui sont fortement contraintes et rarement accessibles, PARHAF est librement utilisable à des fins pédagogiques et de recherche, ce qui en fait un excellent terrain d’expérimentation.
 Voici quelques propositions de projets à réaliser sur ce jeu de données.
 
-============================================================
-====== Outil 1 : Chatbot basé sur un dossier patient ======= (Eliott Ramos-Gauthier, Alma Lemansour, Lamia Bouhous, étudiant.e.s-ingénieur.e.s à Polytech Sorbonne, MAIN)
-============================================================
+====== Outil 1 : Chatbot basé sur un dossier patient =======
+(Eliott Ramos-Gauthier, Alma Lemansour, Lamia Bouhous, étudiant.e.s-ingénieur.e.s à Polytech Sorbonne, MAIN)
+
 + fichier JSON
 
 Ce système RAG permet d'interroger en langage naturel le corpus PARHAF, structuré au format JSON pour une analyse précise des dossiers patients.
@@ -21,14 +19,11 @@ Note importante : Pour garantir la précision des résultats, veuillez toujours 
 précisez également son ID.
 Dès que vous souhaitez changer de patient, il suffit d'appuyer sur le bouton prévu pour réinitialiser la mémoire.
 
-==========================================================
 ====== Outil 2 : Recherche de patients avec un RAG =======
-==========================================================
 ...
 
-=========================================================
-====== Outil 3 : Recherche de patients similaires ======= (Eliott Ramos-Gauthier, étudiant-ingénieur à Polytech Sorbonne, MAIN)
-=========================================================
+====== Outil 3 : Recherche de patients similaires =======
+(Eliott Ramos-Gauthier, étudiant-ingénieur à Polytech Sorbonne, MAIN)
 + fichier JSON
 
 Cet outil a été conçu pour identifer et extraire à partir du corpus PARHAF, la cohorte des 100 patients présentant le profil le plus similaire au patient cible sélectionné.
@@ -47,19 +42,15 @@ Afin d'offrir une vision d'ensemble sur le corpus PARHAF, des graphiques sont mi
 
 Ces indicateurs clés ont été sélectionnés pour permettre d'appréhender rapidement la structure de la cohorte selon des variables structurantes telles que l'âge, la spécialité médicale, ou encore le mode d'admission. Ces visualisations constituent une première étape nécéssaire pour comprendre la distribution et le profil type des patients avant d'utiliser l'outil de similarité.
 
-===================================================================================
 ====== Outil 4 : Simplification de texte médical à destination des patients =======
-===================================================================================
 ...
 
-====================================================
 ====== Outil 5 : Complétion de texte médical =======
-====================================================
 ...
 
-=====================================================================
-====== Outil 6 : Extraction structurée d’information clinique ======= (Lamia Bouhous, étudiante-ingénieure à Polytech Sorbonne, MAIN)
-=====================================================================
+====== Outil 6 : Extraction structurée d’information clinique =======
+(Lamia Bouhous, étudiante-ingénieure à Polytech Sorbonne, MAIN)
+
 + fichier JSON 
 
 Main6 : Ce projet consiste à implémenter un programme permettant de structurer de manière lisible et intelligente un texte brut correspondant à un compte-rendu
@@ -68,9 +59,8 @@ Ces attributs sont structurés dans un fichier .json source par la fonction `Cre
 Le `main6.py` implémenté ici consiste en l'utilisation d'un LLM (modèle `llama3.2` de Ollama) que je prompte pour qu'il extraie les informations les plus pertinentes.
 Dans ce même prompt, je donne la structure (json) souhaité en sortie. Finalement, on obtient un fichier `extractions.json`.
 
-====================================================================
-====== Outil 7 : Timeline médicale (structuration temporelle ======= (Alma Lemansour, étudiante-ingénieure à Polytech Sorbonne, MAIN)
-====================================================================
+====== Outil 7 : Timeline médicale (structuration temporelle =======
+(Alma Lemansour, étudiante-ingénieure à Polytech Sorbonne, MAIN)
 pas de fichier JSON 
 
 Main7 : fait appel aux fonctions présentes dans outil7.
@@ -80,9 +70,7 @@ L'objectif est de créer une frise chronologique des évènements clés à parti
 Cela permet de relier les différents comptes rendus entre eux pour les patients en possédant plusieurs. 
 . frise.py trace la frise chronologique grâce à la bibliothèque plotly (adapté pour les graphiques dynamiques).
 
-========================================
 ====== Lancement de l'application ======
-========================================
 
 Le projet PARHAF s'articule autour de 7 outils informatiques permettant de mettre en valeur le corpus.
 Chaque outil est relié à une page d'accueil, facilitant ainsi la navigation entre les différentes fonctionnalités.
@@ -90,9 +78,7 @@ Chaque outil est relié à une page d'accueil, facilitant ainsi la navigation en
 Emplacement : Projet_PARHAF/Code/
 Commande : streamlit run main.py
 
-====================================
 ====== Remarques importantes =======
-====================================
 
 - Il est nécéssaire d'avoir llama3.2 et mistral.nemo d'installé sur l'ordinateur. 
 	- ollama install llama3.2
@@ -113,9 +99,8 @@ Commande : streamlit run main.py
 	
 - Certains outils nécessitent des fichiers JSON volumineux. Afin d'optimiser le transfert et d'alléger le dépôt, ces fichiers ne sont pas inclus.
 Il est nécessaire d'exécuter les outils une première fois depuis la page principale pour générer automatiquement les fichiers JSON requis.
-==========================
+
 ====== Architecture ======
-==========================
 
 Code/
 ├── corpus_PARHAF_outil_1.json 
