@@ -7,9 +7,7 @@ Sa particularité essentielle est qu’il ne contient aucune donnée réelle de 
 
 Contrairement aux bases issues du système de santé réel, qui sont fortement contraintes et rarement accessibles, PARHAF est librement utilisable à des fins pédagogiques et de recherche, ce qui en fait un excellent terrain d’expérimentation.
 
----
-
-## Liste des outils
+## Liste des outils ##
 
 ### Outil 1 : Chatbot basé sur un dossier patient
 **Étudiant.e.s :** Eliott Ramos-Gauthier, Alma Lemansour, Lamia Bouhous (Polytech Sorbonne, MAIN)  
