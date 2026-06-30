@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "Annette Tournoux",
+        "age": null,
+        "date_de_naissance": "19/10/1969",
+        "sexe": "F",
+        "reçu le": "19/05/2025",
+        "prescripteur": "Dr Patrick Moge",
+        "diagnostics": [
+            "Carcinome Infiltrant TNS (Carcinome Canalaire Infiltrant SAI)"
+        ],
+        "evolutions": [
+            "Lésion(s) macroscopique(s) : unique",
+            "Nombre de mitoses : 0,96/mm² (3/10HPF)",
+            "CCIS associé : oui, 5% s'étendant en inférieur, Grade nucléaire : intermédiaire"
+        ],
+        "traitements": [
+            "MASTECTOMIE PARTIELLE GAUCHE (QSE) ET LYMPHADENECTOMIE AXILLAIRE LIMITEE AU SENTINELLE"
+        ],
+        "antecedents": [
+            "Aucun antécédent mentionné dans le compte-rendu clinique"
+        ],
+        "Code ADICAP": "OHGSA7B2",
+        "id": "ANATOMOPATHOLOGIE-00004"
+    }
+]
