@@ -71,7 +71,7 @@ Le projet PARHAF s'articule autour de 7 outils accessibles via une interface uni
 - **Prérequis :**
   - Installation de `llama3.2` et `mistral-nemo` via `ollama install`.
   - Python 3.10 minimum requis.
-  - Bibliothèques nécessaires : `SentenceTransformer`, `Numpy`, `Matplotlib`, `Streamlit`, `Plotly`, `Datetime`, `Langchain`, `Pandas`, `Seaborn`.
+  - Bibliothèques nécessaires : `SentenceTransformer`, `Numpy`, `Matplotlib`, `Streamlit`, `Plotly`, `Datetime`, `Langchain`, `Langchain_OpenAI`, `Pandas`, `Seaborn`.
 
 - **Gestion des fichiers JSON :**
   Certains outils nécessitent des fichiers JSON volumineux. Afin d'optimiser le transfert et d'alléger le dépôt, ces fichiers ne sont pas inclus. Vous devez lancer les outils une première fois depuis la page principale pour générer automatiquement les fichiers JSON requis.
