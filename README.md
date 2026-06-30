@@ -85,11 +85,11 @@ Code/
 ├── corpus_PARHAF_outil_1.json 
 ├── corpus_PARHAF_outil_3.json
 ├── corpus_PARHAF_outil_6.json
+├── main.py 
 ├── Images/
 │   ├── logo_limics.png
 │   ├── Logo_of_Sorbonne_University.png
 │   └── Logo_Polytech_Sorbonne.png
-├── main.py 
 ├── pages/
 │   ├── main1.py
 │   ├── main3.py
@@ -97,6 +97,19 @@ Code/
 │   └── main7.py
 └── src/ 
     ├── outil_1/
+    │   ├── Attributs_document.py
+    │   ├── Classe.py
+    │   ├── Sauvegarde_fichier.py
+    │   └── Vectoriser_document.py
     ├── outil_3/
+    │   ├── Attributs_document.py
+    │   ├── Classe.py
+    │   ├── Sauvegarde_fichier.py
+    │   └── Vectoriser_document.py
     ├── outil_6/
-    ├── outil_7/
+    │   ├── CreerJson.py
+    │   └── extractions.json
+    └── outil_7/
+        ├── extraction.py
+        ├── frise.py
+        └── tri.py
